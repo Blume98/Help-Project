@@ -1,0 +1,120 @@
+body {
+  background-color: #0e1823;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* SECTION MOB VERSION */
+.advantages {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 375px;
+}
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.advantages-list {
+  background-color: #1b414b;
+  max-width: 335px;
+  padding: 80px 20px;
+  margin: 0px auto;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.advantages-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.number-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  margin-bottom: 18px;
+}
+
+.line {
+  display: block;
+  /* position: absolute; */
+  max-width: 295px;
+  height: 2px;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+  margin-bottom: 18px;
+}
+
+.lines-svg {
+}
+.advantages-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+}
+.advantages-text1 {
+  max-width: 238px;
+}
+.advantages-text2 {
+}
+.advantages-text3 {
+}
+.prosto {
+}
+.advantages-text4 {
+}
+.section-img {
+}
+.advantages-img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 24px;
+  max-width: 335px;
+  height: 424px;
+}
+
+/* -------------------- */
+
+/* SECTION MOB VERSION */
+@media screen and (min-width: 375px) {
+  .advantages-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 335px;
+    height: 424px;
+  }
+}
+
+/* ------------------- */
+
+/* SECTION TABLE VERSION */
+@media screen and (min-width: 768px) {
+}
+
+/* --------------------- */
+
+/* SECTION DEKSTOP VERSION */
+@media screen and (min-width: 1280px) {
+}
+
+/* ----------------------- */

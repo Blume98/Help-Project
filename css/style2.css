@@ -59,7 +59,6 @@ ol {
 
 .line {
   display: block;
-  /* position: absolute; */
   max-width: 295px;
   height: 2px;
   border-radius: 18px;
@@ -163,19 +162,19 @@ ol {
   .container {
     margin: 0 auto;
     display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
   }
 
   .advantages-list {
-    width: 716px;
-    height: 424px;
-    margin-right: 32px;
+    max-width: 716px;
     display: flex;
     flex-wrap: wrap;
     gap: 44px 44px;
     padding: 90px 50px;
     justify-content: center;
-    margin-bottom: 0;
-    margin-right: 0;
+    margin: 0;
   }
 
   .advantages-item {
@@ -185,7 +184,27 @@ ol {
 
   .section-img {
     max-width: 432px;
+    margin: 0;
   }
 }
 
 /* ----------------------- */
+/* SECTION DEKSTOP 1440 V */
+@media screen and (min-width: 1440px) {
+  .advantages {
+    max-width: 1440px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+  }
+
+  .advantages-list {
+    max-width: 768px;
+    gap: 44px 32px;
+  }
+
+  .section-img {
+    max-width: 540px;
+  }
+}
+
+/* ---------------------- */
